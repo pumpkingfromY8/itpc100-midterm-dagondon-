@@ -1,11 +1,12 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Company Profile Card</title>
 
+    <!-- Step 3: The CSS Challenge -->
     <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
 
@@ -13,6 +14,8 @@
     <style>
         article {
             background-color: white;
+            color: #000c05;
+            font-size: large;
             border-radius: 15px;
             padding: 30px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
@@ -25,37 +28,45 @@
         }
     </style>
 </head>
+
 <body>
 
+    <!-- Step 2: HTML Semantic Structure -->
+
     <header>
-        <h1>TECHNOVA</h1>
-        <p>Innovating Today, Inspiring Tomorrow.</p>
+        <h1>Rainndrop Nature Trails & Photography</h1>
+        <p>Immersion in Nature, Art in Every Frame</p>
     </header>
 
     <main>
         <article>
+            <!-- 3. Inline CSS (Specific Overrides) -->
+            <img src="assets/company-logo.jpg" alt="Company Logo"
+                style="width: 150px; height: auto; border-radius: 50%; margin-bottom: 20px;  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);">
             <h2>About Us</h2>
             <p>
-                TECHNOVA is a technology startup dedicated to
-                providing innovative digital solutions. We help
-                businesses grow through creative design,
-                modern websites, and reliable technology.
+                Rainndrop Nature Trails & Photography is dedicated to providing immersive experiences in the heart of
+                nature. Our guided trails and photography workshops allow enthusiasts to explore breathtaking
+                landscapes, capture stunning images, and connect with the natural world. Whether you're a seasoned
+                photographer or a nature lover, our team ensures that every adventure is memorable and inspiring.
             </p>
         </article>
     </main>
 
     <footer>
-        <p>&copy; 2026 TECHNOVA. All rights reserved.</p>
+        <p>Rainndrop Nature Trails & Photography. All rights reserved.</p>
 
-        <button style="background-color: #2563eb;
+        <!-- 3. Inline CSS (Specific Overrides) -->
+        <button style="background-color: #2564eb65;
                        color: white;
                        padding: 12px 24px;
                        border: none;
                        border-radius: 8px;
-                       cursor: pointer;">
+                       cursor: pointer;" onclick="window.location.href='https://www.facebook.com/rain.dagondon'">
             Contact Us
         </button>
     </footer>
 
 </body>
+
 </html>
